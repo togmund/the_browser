@@ -1,6 +1,6 @@
 HTML + CSS
 
-Box Model
+The two languages—HTML and CSS—are independent of one another and should remain that way. CSS should not be written inside of an HTML document and vice versa. As a rule, HTML will always represent content, and CSS will always represent the appearance of that content.
 
 Javascript = interactive
 
@@ -24,14 +24,17 @@ Examples:
 Standard layout of an HTML page:
 
 <!DOCTYPE html>
-<html lang="...">
-   <head>
-        ...
-   </head>
-   <body>
-        ...
-   </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is a web page.</p>
+  </body>
 </html>
+
 
 Common tags:
     <!--
@@ -64,10 +67,22 @@ The two languages—HTML and CSS—are independent of one another and should rem
 
 
 Attributes
-Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
+  Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
 
-Attributes are defined within the opening tag, after an element’s name. Generally attributes include a name and a value. The format for these attributes consists of the attribute name followed by an equals sign and then a quoted attribute value. For example, an <a> element including an href attribute would look like the following:
+  Attributes are defined within the opening tag, after an element’s name. Generally attributes include a name and a value. The format for these attributes consists of the attribute name followed by an equals sign and then a quoted attribute value. For example, an <a> element including an href attribute would look like the following:
 
-1
-2
-<a href="http://shayhowe.com/">Shay Howe</a>
+
+Self-Closing Elements
+  <br>
+  <embed>
+  <hr>
+  <img>
+  <input>
+  <link>
+  <meta>
+  <param>
+  <source>
+  <wbr>
+
+Code Validation
+  No matter how careful we are when writing our code, we will inevitably make mistakes. Thankfully, when writing HTML and CSS we have validators to check our work. The W3C has built both HTML and CSS validators that will scan code for mistakes. Validating our code not only helps it render properly across all browsers, but also helps teach us the best practices for writing code.
