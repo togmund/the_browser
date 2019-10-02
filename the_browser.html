@@ -1,0 +1,73 @@
+HTML + CSS
+
+Box Model
+
+Javascript = interactive
+
+HTML
+  Hyper Text Markup Language
+  Tags
+  tag surrounded by "Angle Brackets" (< >)
+  Elements
+    <open>
+      <nested></nested>
+    </open>
+  
+Examples:
+
+  <p>
+    This is a paragraph element. All of the content from the opening tag at the beginning of the line until the closing paragraph tag (the one with the / inside of it) will be treated as a 
+    <em>single paragraph</em>
+    by the browser.
+  </p>
+
+Standard layout of an HTML page:
+
+<!DOCTYPE html>
+<html lang="...">
+   <head>
+        ...
+   </head>
+   <body>
+        ...
+   </body>
+</html>
+
+Common tags:
+    <!--
+     Comment Syntax
+    -->
+<!--
+   <title> There can be only one! Highlander
+    This determines the title of the document for display in the browser (usually on the tab of your browser) and also what the name will be if you bookmark the page.
+   </title> 
+
+   <link> Link an external stylesheet.
+   An external stylesheet is a separate file which the brower will download. It will contain CSS, which are the rules for the display and layout of the elments of your page
+   </link>
+
+   <script> A script tag is used to denote a block of javascript
+   Scripts can be either inline, meaning the script is written in the page itself, or external like stylesheets that are loaded via the link tag.
+   </script>
+   
+   <style> Allows you to define CSS rules inline, in the doc itself.
+   This is an alternative to using the link tag to load the CSS rules from an external file.
+   </style>
+
+   <meta> This will contain other configuration options for the page.
+   Language, keywords and other settings that browsers and search engines can use to better represent your page.
+   </meta>
+
+-->
+
+The two languages—HTML and CSS—are independent of one another and should remain that way. CSS should not be written inside of an HTML document and vice versa. As a rule, HTML will always represent content, and CSS will always represent the appearance of that content.
+
+
+Attributes
+Attributes are properties used to provide additional information about an element. The most common attributes include the id attribute, which identifies an element; the class attribute, which classifies an element; the src attribute, which specifies a source for embeddable content; and the href attribute, which provides a hyperlink reference to a linked resource.
+
+Attributes are defined within the opening tag, after an element’s name. Generally attributes include a name and a value. The format for these attributes consists of the attribute name followed by an equals sign and then a quoted attribute value. For example, an <a> element including an href attribute would look like the following:
+
+1
+2
+<a href="http://shayhowe.com/">Shay Howe</a>
